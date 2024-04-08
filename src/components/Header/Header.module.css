@@ -1,0 +1,32 @@
+.image {
+    width: 178px;
+    height: 117px;
+    cursor: pointer;
+}
+
+.Header {
+    width: 100%;
+    height: 150px;
+    padding: 16px 112px;
+}
+
+.Navbar {
+    width: 818px;
+    height: 32px;
+    position: absolute;
+    top: 59px;
+    left: 995px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Days One;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31.82px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,16 @@
+.SubmitButton {
+    width: 250px;
+    height: 68px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    font-family: Days One;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.46px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #156CE7;
+    cursor: pointer;
+}
