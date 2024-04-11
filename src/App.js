@@ -2,6 +2,7 @@ import './global.css'
 import Header from './components/Header/Header';
 import HeroBlock from './components/HeroBlock/HeroBlock';
 import AboutSection from './components/AboutSection/AboutSection';
+import HowSection from './components/HowSection/HowSection';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <HeroBlock />
       </div>
       <AboutSection />
-      
+      <HowSection />
     </div>
   );
 }
