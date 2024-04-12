@@ -33,7 +33,7 @@ const HowSection = () => {
         }
     ]
 
-    const currentId = useState(0);
+    const [currentId , setCurrentId] = useState(0);
 
   return (
     <div className={style.HowSection}>
@@ -45,8 +45,14 @@ const HowSection = () => {
                 src={item.url} 
                 text={item.header} 
                 clicked={currentId === item.index ? 1 : 0}
+                onClick={()=>{
+                  setCurrentId(item.index); 
+                }}
             />
         ))}
+      </div>
+      <div className={style.collector2}>
+        {itemInfo[currentId].description}
       </div>
     </div>
   )

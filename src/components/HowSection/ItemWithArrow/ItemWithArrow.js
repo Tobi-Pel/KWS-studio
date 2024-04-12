@@ -4,7 +4,7 @@ import Arrow from '../../../assets/arrow.png'
 
 const ItemWithArrow = ({clicked , src , text , ...props}) => {
   return (
-    <div {...props} className={style.ItemWithArrow}>
+    <div {...props} className={clicked ? style.ItemWithArrowMoved : style.ItemWithArrow}>
     <div className={style.circle}>
         <img className={style.image} src={src}/>
     </div>

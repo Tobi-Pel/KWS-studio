@@ -37,3 +37,16 @@
     position: relative;
     top: 190px;
 }
+
+.collector2 {
+    position: relative;
+    top: 270px;
+    font-family: Inter;
+    font-weight: 600;
+    color: #F3F3F3;
+    line-height: 32px;
+    font-size: 20px;
+    text-align: center;
+    transition: all .3s;
+    width: 1067px;
+}
