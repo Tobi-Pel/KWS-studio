@@ -3,6 +3,7 @@
     flex-direction: row;
     gap: 15px;
     transition: all .3s;
+    cursor: pointer;
 }
 
 .ItemWithArrowMoved {
