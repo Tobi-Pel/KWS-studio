@@ -30,7 +30,12 @@
 }
 
 .line {
+    animation-name: moveLine;
+    animation-duration: 1s;
     width: 217px;
+    height: 25px;
+    background-image: url('../../../assets/arrow.png');
+    background-size: cover;
 }
 
 .lineNone {
@@ -52,4 +57,16 @@
     gap: 5px;
     justify-content: center;
     align-items: center;
+}
+
+@keyframes moveLine {
+    0% {
+        width: 1px;
+        align-self: self-start;
+    }
+    100% {
+        width: 217px;
+        height: 25px;
+        align-self: self-start;
+    }
 }

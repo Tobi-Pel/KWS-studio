@@ -49,4 +49,6 @@
     text-align: center;
     transition: all .3s;
     width: 1067px;
+    animation-name: moving;
+    animation-duration: 1s;
 }
