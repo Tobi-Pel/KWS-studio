@@ -1,3 +1,6 @@
+@media (min-width: 1365px) and (max-width: 1367px) {
+
+    
 .image {
     width: 178px;
     height: 117px;
@@ -8,14 +11,16 @@
     width: 100%;
     height: 150px;
     padding: 16px 112px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 500px;
 }
 
 .Navbar {
     width: 818px;
     height: 32px;
-    position: absolute;
-    top: 59px;
-    left: 995px;
     display: flex;
     justify-content: space-between;
 }
@@ -29,4 +34,66 @@
     font-size: 25px;
     line-height: 31.82px;
     color: #FFFFFF;
+}
+    .image {
+        width: 125px;
+        height: 82px;
+    }
+    
+    .Header {
+        width: 1366px;
+        height: 105px;
+        padding: 11px 78px;
+    }
+    
+    .Navbar {
+        width: 573px;
+        height: 22px;
+        top: 41px;
+        left: 696.5px;
+    }
+    
+    
+    .a {
+        font-size: 17.5px;
+        line-height: 31.82px;
+    }
+}
+
+@media (min-width: 1920px) {
+    
+.image {
+    width: 178px;
+    height: 117px;
+    cursor: pointer;
+}
+
+.Header {
+    width: 100%;
+    height: 150px;
+    padding: 16px 112px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 500px;
+}
+
+.Navbar {
+    width: 818px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Days One;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31.82px;
+    color: #FFFFFF;
+}
 }

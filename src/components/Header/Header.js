@@ -5,7 +5,7 @@ const header = () => {
   return (
     <div className={style.Header}>
       <img 
-        src={'https://s3-alpha-sig.figma.com/img/0737/203c/c35724fa8f6701bfcaf1f4fac3d4d9f1?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=B4GmluOTAeXuaRHJG5OVfQuI1nxx9fi~DjLelwhN2Y1k8UKZ4cOoZzoqSHG014a4X3LufazebMRhHVhCjXcpYEuuQZy9Yt3YwjgXwQ-mkQh7-Qc6bPW3KtPQcS8SQ~zzwhaPMpa1AVjFeTogVi-hs7eH0OLW5bO~NeDyOp67AtIBkWbeRvHXKFZfdVcX-JdBJAmCmmI3xTakZtbo8Ui0SDp722aD1AM0ZI1bFxEm0g9cMgMQv-fAp~E5A-QgRSwxhGHP98JjRyoYDRYSNcQWqeKjKlfgpKWHGfsdUvgKu6Iuwwn5SGG0GZbvBzoVJXhafU3WYs~MAIVdjFGb3sSiVw__'}
+        src={'https://s3-alpha-sig.figma.com/img/0737/203c/c35724fa8f6701bfcaf1f4fac3d4d9f1?Expires=1714953600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lgJldEkcTC2OsJB1vcR62ZWnvDCdK3EOwNv5UtD-mRkl1TLHOEXBRxAnbeLZjZXtu1PyO5gs6xSipBfL5yTSG2IgpId2s8r5ql7ygc1f1TGYm0uyEOJtIryqmdndDnc7gFzxVXhfjfMUFMDTeDoz9cNzUDtvYdJmfHOXTukkybXcTuF9a4zOeAX~GJK-0uDoimHL58bscW3L3RpEIFp~YRBNIEtFevazkNberSIKlOZ6AWSAQA-00rDUSVL5iuLXHTq2XeDVs6LvzIZGdCOeAfCpwxqzj77Ig4uRelOVMjmnUtbhTtJBhlNbwxgAhqyZZI5ZkQa1a2V3VxBjPtBfTQ__'}
         className={style.image}
       />
       <div className={style.Navbar}>

@@ -1,10 +1,10 @@
+@media (min-width: 1365px) and (max-width: 1367px) {
+
 .PortfolioSection {
-    width: 100%;
-    height: 1652px;
     background-image: url('../../assets/BG4.png');
-    background-size: cover;
-    position: absolute;
-    top: 2640px;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 40px;
 }
 
 .H1 {
@@ -15,27 +15,93 @@
     text-align: center;
     color: #000000;
     position: relative;
-    top: 133px;
 }
 
 .collector1 {
-    position: relative;
-    top: 223px;
     display: flex;
     justify-content: center;
     gap: 93px;
+    margin-top: 120px;
 }
 
 .collector2 {
-    position: relative;
-    top: 368px;
     display: flex;
     justify-content: center;
     gap: 93px;
+    margin-top: 120px;
 }
 
 .image {
     width: 320px;
-    height: 568.89px;
     border-radius: 15px;
+}
+    
+    .PortfolioSection {
+        background-image: url('../../assets/1366b2.png');
+        padding-top: 70px ;
+    }
+
+    .H1 {
+        font-size: 28px;
+        margin-bottom: 80px;
+    }
+
+    .collector1 {
+        margin-top: 0;
+        display: flex;
+        gap: 65px;
+        margin-bottom: 80px;
+    }
+
+    .collector2 {
+        display: flex;
+        gap: 65px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .image {
+        width: 224px;
+        height: 398px;
+        border-radius: 10.5px;
+    }
+}
+
+@media (min-width: 1920px) {
+.PortfolioSection {
+    background-image: url('../../assets/BG4.png');
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+
+.H1 {
+    font-family: Days One;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50.92px;
+    text-align: center;
+    color: #000000;
+    position: relative;
+}
+
+.collector1 {
+    display: flex;
+    justify-content: center;
+    gap: 93px;
+    margin-top: 120px;
+}
+
+.collector2 {
+    display: flex;
+    justify-content: center;
+    gap: 93px;
+    margin-top: 120px;
+}
+
+.image {
+    width: 320px;
+    border-radius: 15px;
+}
+    
 }
