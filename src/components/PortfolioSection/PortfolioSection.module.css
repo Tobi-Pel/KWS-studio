@@ -22,6 +22,7 @@
     justify-content: center;
     gap: 93px;
     margin-top: 120px;
+    
 }
 
 .collector2 {
@@ -29,13 +30,36 @@
     justify-content: center;
     gap: 93px;
     margin-top: 120px;
+
+   
 }
 
 .image {
     width: 320px;
     border-radius: 15px;
 }
-    
+
+.imageInner {
+    width: 85px;
+    height: 85px;
+}
+
+.Box1 {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    bottom: 403px;
+    left: 140px;
+    visibility: hidden; 
+}
+   
+.imageBox:hover {
+    .Box1 {
+        visibility: visible;
+        transition: all .4s;
+    }
+}
+
     .PortfolioSection {
         background-image: url('../../assets/1366b2.png');
         padding-top: 70px ;
@@ -65,6 +89,8 @@
         height: 398px;
         border-radius: 10.5px;
     }
+
+    
 }
 
 @media (min-width: 1920px) {
@@ -103,5 +129,28 @@
     width: 320px;
     border-radius: 15px;
 }
+
+
+.imageInner {
+    width: 120px;
+    height: 120px;
+}
+
+.Box1 {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    bottom: 573px;
+    left: 201px;
+    visibility: hidden; 
+}
+   
+.imageBox:hover {
+    .Box1 {
+        visibility: visible;
+        transition: all .4s;
+    }
+}
+
     
 }
